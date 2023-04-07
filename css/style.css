@@ -493,26 +493,15 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #overlay {
   background: #ffffff;
-  background-image: url("../images/undangan.jpg");
+  background-image: url("../images/overlay.JPG");
   background-size: cover;
   height: 100%;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 3000;
+  z-index: 2000;
 }
-
-@media (max-width: 767px) {
-  /* Aturan CSS untuk layar dengan lebar maksimum 767 piksel */
-  #overlay {
-   
-    /* Atur tinggi dan lebar elemen sesuai dengan ukuran gambar */
-    height: 100%;
-    width: 100%;
-  }
-}
-
 #overlay .content {
   background: rgba(0, 0, 0, 0.7);
   position: relative;
