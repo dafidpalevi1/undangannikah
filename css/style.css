@@ -502,6 +502,17 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   z-index: 3000;
 }
+
+@media (max-width: 767px) {
+  /* Aturan CSS untuk layar dengan lebar maksimum 767 piksel */
+  #overlay {
+    background-size: contain;
+    /* Atur tinggi dan lebar elemen sesuai dengan ukuran gambar */
+    height: 500px;
+    width: 100%;
+  }
+}
+
 #overlay .content {
   background: rgba(0, 0, 0, 0.7);
   position: relative;
