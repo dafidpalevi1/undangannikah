@@ -506,7 +506,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media (max-width: 767px) {
   /* Aturan CSS untuk layar dengan lebar maksimum 767 piksel */
   #overlay {
-    background-size: contain;
+   
     /* Atur tinggi dan lebar elemen sesuai dengan ukuran gambar */
     height: 100%;
     width: 100%;
